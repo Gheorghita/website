@@ -1,8 +1,9 @@
 # Site settings
 title: Gheorghiță BUTNARU
 description: 'System and Network Engineer @ "Gh. Asachi" Technical University of Iaşi'
-url: 'gbutnaru.me'
-baseurl: '/'
+url: 'https://gbutnaru.me'
+enforce_ssl: 'gbutnaru.me'
+baseurl: ''
 google_analytics: 'UA-98624101-1'
 # disqus_shortname: 'your-disqus-name'
 
@@ -10,7 +11,7 @@ author:
   name: 'Gheorghiță BUTNARU'
   email: contact@gbutnaru.me
   twitter_username: GheorghitaBU
-#  facebook_username: joshgerdes
+#  facebook_username:
   github_username:  Gheorghita
   linkedin_username:  gbutnaru
 
@@ -23,7 +24,7 @@ defaults:
         layout: 'post'
 
 # Build settings
-destination: _site
+destination: ../website-data/ 
 paginate: 10
 permalink: /:title/
 markdown: kramdown
@@ -36,4 +37,14 @@ kramdown:
   hard_wrap: false
 
 gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'Rakefile']
+
+# Settings for deploy rake task
+username:        Gheorghita
+repo:            website
+branch:          pages-source
+relative_source: ../website/
+destination_branch: gh-pages
+destination_folder: ../website-data/
+production_url:  https://gbutnaru.me
+source_url:      https://github.com/Gheorghita/website

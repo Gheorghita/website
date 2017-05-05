@@ -1,5 +1,5 @@
 # Personal website
-Personal website build with Jekyll based on [Jekyll-Uno](https://github.com/joshgerdes/jekyll-uno) and [Particles.js](https://github.com/VincentGarreau/particles.js)
+Personal website built with Jekyll based on [Jekyll-Uno](https://github.com/joshgerdes/jekyll-uno) and [Particles.js](https://github.com/VincentGarreau/particles.js)
 ---
 ---
 # Documentation

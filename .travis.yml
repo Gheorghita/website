@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+- 2.1.1
+
+cache: bundler
+
+install: gem install bundler -v 1.11.2 && bundle install
+script: bundle exec rake site:deploy --trace
+
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - /pages-(.*)/ # test every branch which starts with "pages-"
+
+
+sudo: false # route your build to the container-based infrastructure for a faster build
