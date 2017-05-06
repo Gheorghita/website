@@ -1,6 +1,7 @@
 #############################################################################
 #
-# Modified version of jekyllrb Rakefile from https://github.com/alexcoman/alexcoman.com/blob/source/Rakefile
+# Modified version https://github.com/alexcoman/alexcoman.com/blob/source/Rakefile
+# from
 # https://github.com/jekyll/jekyll/blob/master/Rakefile
 #
 #############################################################################
@@ -60,7 +61,8 @@ namespace :site do
     sh "git checkout #{SOURCE_BRANCH}"
     Dir.chdir(CONFIG["destination_folder"]) do
         sh "git checkout #{DESTINATION_BRANCH}"
-        sh "git pull origin #{SOURCE_BRANCH}"
+        #sh "git pull origin #{SOURCE_BRANCH}"
+        #sh "printf 'categories.md\n_config.yml\ncss\nfeed.xml\nfonts\nGemfile\nimages\n_includes\njs\n_layouts\nLICENSE\n_posts\nRakefile\nREADME.md\nsitemap.xml\ntags.md\nindex.html' > .gitignore"
     end
 
     # Generate the site
