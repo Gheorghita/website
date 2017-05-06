@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://gbutnaru.me/welcome-to-jekyll/</loc>
+      <loc>https://gbutnaru.me/welcome-to-jekyll/</loc>
       
         <lastmod>2017-05-05T15:04:23+00:00</lastmod>
       
@@ -19,24 +19,9 @@
   
     
     <url>
-      <loc>http://gbutnaru.me/categories/</loc>
+      <loc>https://gbutnaru.me/categories/</loc>
       
-        <lastmod>2017-05-06T12:48:22+00:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://gbutnaru.me/feed.xml</loc>
-      
-        <lastmod>2017-05-06T12:48:22+00:00</lastmod>
+        <lastmod>2017-05-06T13:03:55+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -49,9 +34,9 @@
   
     
     <url>
-      <loc>http://gbutnaru.me/</loc>
+      <loc>https://gbutnaru.me/feed.xml</loc>
       
-        <lastmod>2017-05-06T12:48:22+00:00</lastmod>
+        <lastmod>2017-05-06T13:03:55+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -64,9 +49,24 @@
   
     
     <url>
-      <loc>http://gbutnaru.me/js/main.js</loc>
+      <loc>https://gbutnaru.me/</loc>
       
-        <lastmod>2017-05-06T12:48:22+00:00</lastmod>
+        <lastmod>2017-05-06T13:03:55+00:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://gbutnaru.me/js/main.js</loc>
+      
+        <lastmod>2017-05-06T13:03:55+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,9 +81,9 @@
   
     
     <url>
-      <loc>http://gbutnaru.me/tags/</loc>
+      <loc>https://gbutnaru.me/tags/</loc>
       
-        <lastmod>2017-05-06T12:48:22+00:00</lastmod>
+        <lastmod>2017-05-06T13:03:55+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
