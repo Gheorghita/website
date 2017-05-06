@@ -1,11 +1,10 @@
 # Site settings
 title: Gheorghiță BUTNARU
 description: 'System and Network Engineer @ "Gh. Asachi" Technical University of Iaşi'
-url: 'https://gbutnaru.me'
-enforce_ssl: 'gbutnaru.me'
-baseurl: ''
+url: 'http://gbutnaru.me'
+baseurl: '/'
 google_analytics: 'UA-98624101-1'
-# disqus_shortname: 'your-disqus-name'
+# disqus_shortname: 'gbutnaru'
 
 author:
   name: 'Gheorghiță BUTNARU'
@@ -24,7 +23,7 @@ defaults:
         layout: 'post'
 
 # Build settings
-destination: ../website-data/ 
+destination: ../website-data/
 paginate: 10
 permalink: /:title/
 markdown: kramdown
