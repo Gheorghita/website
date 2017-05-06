@@ -1,7 +1,11 @@
 # Site settings
-title: Gheorghiță BUTNARU
-description: 'System and Network Engineer @ "Gh. Asachi" Technical University of Iaşi'
-url: 'http://gbutnaru.me'
+title: 'Gheorghiță BUTNARU'
+description: 'System and Network Engineer @ &#34;Gh. Asachi&#34; Technical University of Iasi<br>'
+description_url: 'http://www.tuiasi.ro'
+second_description: 'AWS Certified Solutions Architect – Associate<br>'
+second_description_url: '/images/awsSolutionsArchitect_AE.pdf'
+url: 'https://gbutnaru.me'
+enforce_ssl: 'gbutnaru.me'
 baseurl: '/'
 google_analytics: 'UA-98624101-1'
 # disqus_shortname: 'gbutnaru'
