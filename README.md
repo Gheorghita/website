@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Gheorghita/website.svg?branch=pages-source)](https://travis-ci.org/Gheorghita/website)
 # Personal website
 Personal website built with Jekyll based on [Jekyll-Uno](https://github.com/joshgerdes/jekyll-uno) and [Particles.js](https://github.com/VincentGarreau/particles.js)
 ---
