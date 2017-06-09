@@ -71,6 +71,18 @@
               </li>
             {% endif %}
 
+            {% if site.author.linuxacademy_username %}
+              <!-- GitHub -->
+              <li class="navigation__item">
+                <a href="https://linuxacademy.com/profile/show/user/name/{{
+                    site.author.linuxacademy_username }}" title="{{
+                    site.author.github_username }} on Linux Academy" target="_blank">
+                    <i class="icon icon-torso" ></i>
+                  <span class="label">Linux Academy</span>
+                </a>
+              </li>
+            {% endif %}
+
             {% if site.author.email %}
               <!-- Email -->
               <li class="navigation__item">
