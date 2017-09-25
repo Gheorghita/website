@@ -42,7 +42,7 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'Rakefile']
 
 # Settings for deploy rake task
