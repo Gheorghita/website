@@ -4,5 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+> System and Network Engineering Manager @ [Gheorghe Asachi Technical University of Iaşi](https://www.tuiasi.ro/?lang=en)
 {: .prompt-tip }
