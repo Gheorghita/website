@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Migrate from CentOS 8 to RHEL 8
-tags: [linux, CentOS, RHEL]
-category: [linux, TIL]
+tags: [linux, CentOS, RHEL, TodayILearned]
+category: [linux]
 date: 2023-02-20 10:04 +0200
 ---
 

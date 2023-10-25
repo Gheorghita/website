@@ -1,8 +1,8 @@
 ---
 layout: post
 title: How to completely wipe osd Ceph disk
-tags: [linux, ceph, storage]
-category: [linux, TIL, ceph]
+tags: [linux, ceph, storage, TodayILearned]
+category: [linux, ceph]
 date: 2023-10-23 20:50 +0200
 ---
 
@@ -58,8 +58,8 @@ Labels on physical volume "/dev/sdc" successfully wiped.
 ```
 
 If you want to remove all the LVM available, you can use some for loops.\
-**Note**: make sure that you trully want to remove all LVMs.
-
+>**Note**: make sure that you trully want to remove all LVMs.
+{: .prompt-warning }
 ```shell
 yes | for i in $(lvscan | cut -f 2,3 -d "/"); do lvremove -f /$i;done
 yes | for i in $(vgscan | cut -f 6 -d' '| cut -f 2 -d'"' | grep ceph); do vgremove $i;done
